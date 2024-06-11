@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>NASA</title>
+</head>
+<body>
+    <div style="margin :24px;">
+        <nav class="nav navbar-light" style ="background-color: rgb(3, 5, 141);"> 
+            <div class="container">
+                <a class="navbar-brand" href="index.html" style="color:rgb(189, 189, 189);">Inicio</a>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="nav navbar-nav">
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Unidad 1</a>
+                            <div class="dropdown-menu"
+                            aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item"
+                        href="perfil.html">Perfil</a><br>
+                        <a class="dropdown-item"
+                        href="calculadora.html">Calculadora</a><br>
+                        <a class="dropdown-item"
+                        href="portada.html">Tienda</a>
+
+                        </div>
+                            
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false" >Unidad 2</a>
+                            <div class="dropdown-menu"
+                            aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item"
+                        href="tiendapedido.html">tiendapedido</a><br>
+                        <a class="dropdown-item"
+                        href="json.html"></a><br>
+                        <a class="dropdown-item"
+                        href="tiendapedido2.html">tiendapedido2</a>
+
+                        </div>
+                            
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false" >Unidad 3</a>
+                            <div class="dropdown-menu"
+                            aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item"
+                         class="dropdown-item"
+                        href="basededatos.html">base de datos</a><br>
+                        <a class="dropdown-item"
+                        href="peliculas.html">peliculas</a>
+
+                        </div>
+                            
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <style>
+        body{
+            background-color: #baffff;
+        }
+        h3{
+            color: rgb(10, 38, 91);
+            font-size: 250%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style:oblique;
+        }
+    </style>
+    <div class="container">
+        <h3 id="titulo" class="pt-5 text-center"></h3>
+        <p id="fecha" class="text-center"></p>
+        <p id="descripcion" class="lead pt-5" style="color: rgb(0, 0, 0); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"></p>
+
+        <div id="c_multimedia" class="embed-responsive embed-responsive-21by9 text-center"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
